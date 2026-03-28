@@ -9,22 +9,26 @@ permalink: /
 # Awesome Quantum Computing Programmes
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![AI-Assisted](https://img.shields.io/badge/Built%20with-AI%20Assistance-blueviolet?logo=openai)](https://github.com/knmnyn/awesome-quantum-computing-programmes/blob/main/CONTRIBUTING.md)
+[![Verify Before Use](https://img.shields.io/badge/Data-Verify%20Before%20Use-orange)](https://github.com/knmnyn/awesome-quantum-computing-programmes/blob/main/CONTRIBUTING.md)
 
-Welcome to the **Awesome Quantum Computing Programmes** directory! 
+Welcome to the **Awesome Quantum Computing Programmes** directory — a curated, globally-focused resource listing quantum computing and quantum technology degree programmes, with a primary focus on undergraduate education. It also includes extension listings for professional certificates and online courses.
 
-This is a curated, globally-focused directory of quantum computing and quantum technology degree programmes, with a primary focus on undergraduate education. 
+---
 
-It provides structured data on universities offering bachelor's degrees, minors, and specialised tracks in quantum information science, quantum engineering, and quantum technologies. It also includes extension listings for professional certificates and online courses.
+> **⚠️ Data Accuracy Notice**
+>
+> This directory was compiled with the assistance of AI tools. While all entries have been checked against official programme pages where possible, programme details — including tuition fees, duration, and availability — are subject to change without notice. **Readers are strongly encouraged to verify all information directly with the relevant institution before making any decisions.**
+>
+> Found an error or know of a programme that should be listed? Please consult the [Contribution Guidelines](https://github.com/knmnyn/awesome-quantum-computing-programmes/blob/main/CONTRIBUTING.md) and open an Issue or Pull Request.
+
+---
 
 ## Navigation
 
 - [🎓 Undergraduate Programmes](undergraduate)
 - [📜 Professional Certificates](certificates)
 - [📊 Data Sources](sources)
-
-## Contributing
-
-Contributions are very welcome! If you know of a quantum computing programme that should be listed, please see our [Contribution Guidelines](https://github.com/knmnyn/awesome-quantum-computing-programmes/blob/main/CONTRIBUTING.md) on GitHub.
 
 ## License
 

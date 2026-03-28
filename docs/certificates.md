@@ -6,6 +6,11 @@ nav_order: 3
 
 # 📜 Professional Certificates & Online Courses
 
+[![AI-Assisted](https://img.shields.io/badge/Built%20with-AI%20Assistance-blueviolet?logo=openai)](https://github.com/knmnyn/awesome-quantum-computing-programmes/blob/main/CONTRIBUTING.md)
+[![Verify Before Use](https://img.shields.io/badge/Data-Verify%20Before%20Use-orange)](https://github.com/knmnyn/awesome-quantum-computing-programmes/blob/main/CONTRIBUTING.md)
+
+> **⚠️ Data Accuracy Notice:** This data was compiled with the assistance of AI tools and checked against official sources where possible. Programme details are subject to change. Please verify all details directly with the provider. Found an error? See the [Contribution Guidelines](https://github.com/knmnyn/awesome-quantum-computing-programmes/blob/main/CONTRIBUTING.md).
+
 *Click on any column header to sort the table.*
 
 | Programme Name | Provider | Mode | Focus Area | URL |

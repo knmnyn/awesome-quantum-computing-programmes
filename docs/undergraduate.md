@@ -6,6 +6,11 @@ nav_order: 2
 
 # 🎓 Undergraduate Programmes
 
+[![AI-Assisted](https://img.shields.io/badge/Built%20with-AI%20Assistance-blueviolet?logo=openai)](https://github.com/knmnyn/awesome-quantum-computing-programmes/blob/main/CONTRIBUTING.md)
+[![Verify Before Use](https://img.shields.io/badge/Data-Verify%20Before%20Use-orange)](https://github.com/knmnyn/awesome-quantum-computing-programmes/blob/main/CONTRIBUTING.md)
+
+> **⚠️ Data Accuracy Notice:** This data was compiled with the assistance of AI tools and checked against official sources where possible. Tuition fees, durations, and programme availability are subject to change. Please verify all details directly with the institution. Found an error? See the [Contribution Guidelines](https://github.com/knmnyn/awesome-quantum-computing-programmes/blob/main/CONTRIBUTING.md).
+
 The table below lists undergraduate programmes (BSc, BEng, etc.) globally. 
 
 *Click on any column header to sort the table.*

@@ -1,16 +1,28 @@
 # Awesome Quantum Computing Programmes
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![AI-Assisted](https://img.shields.io/badge/Built%20with-AI%20Assistance-blueviolet?logo=openai)](https://github.com/knmnyn/awesome-quantum-computing-programmes/blob/main/CONTRIBUTING.md)
+[![Verify Before Use](https://img.shields.io/badge/Data-Verify%20Before%20Use-orange)](https://github.com/knmnyn/awesome-quantum-computing-programmes/blob/main/CONTRIBUTING.md)
 
-A curated, globally-focused and sortable directory of quantum computing and quantum technology degree programmes, with a primary focus on undergraduate education. 
+A curated, globally-focused and sortable directory of quantum computing and quantum technology degree programmes, with a primary focus on undergraduate education.
 
 This repository provides structured data on universities offering bachelor's degrees, minors, and specialised tracks in quantum information science, quantum engineering, and quantum technologies. It also includes extension listings for professional certificates and online courses.
 
 🌐 **[View the full documentation site](https://knmnyn.github.io/awesome-quantum-computing-programmes/)** (Built with Jekyll / Just the Docs)
 
+---
+
+> **⚠️ Data Accuracy Notice**
+>
+> This directory was compiled with the assistance of AI tools. While all entries have been checked against official programme pages where possible, programme details — including tuition fees, duration, and availability — are subject to change without notice. **Readers are strongly encouraged to verify all information directly with the relevant institution before making any decisions.**
+>
+> Found an error or know of a programme that should be listed? Please consult the [Contribution Guidelines](CONTRIBUTING.md) and open an Issue or Pull Request.
+
+---
+
 ## 🎓 Undergraduate Programmes
 
-The table below lists undergraduate programmes (BSc, BEng, etc.) globally. 
+The table below lists undergraduate programmes (BSc, BEng, etc.) globally.
 
 *Note: To sort this table on GitHub, click on the column headers (requires GitHub's native table sorting feature, or view on the [Jekyll site](https://knmnyn.github.io/awesome-quantum-computing-programmes/) for full interactive sorting).*
 
@@ -39,11 +51,11 @@ The table below lists undergraduate programmes (BSc, BEng, etc.) globally.
 
 - `/data/`: Raw markdown data files serving as the primary datastore.
 - `/docs/`: Jekyll site source files (using the `just-the-docs` theme).
-- `CONTRIBUTING.md`: Guidelines for adding new programmes.
+- `CONTRIBUTING.md`: Guidelines for adding new programmes or correcting existing entries.
 
 ## 🤝 Contributing
 
-Contributions are very welcome! If you know of a quantum computing programme that should be listed, please see our [Contribution Guidelines](CONTRIBUTING.md).
+Contributions are very welcome! If you know of a quantum computing programme that should be listed, or if you have spotted an error in existing data, please see our [Contribution Guidelines](CONTRIBUTING.md).
 
 ## 📄 License
 
