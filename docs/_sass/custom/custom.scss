@@ -4,3 +4,31 @@
     max-width: none;
   }
 }
+
+// Sidebar: slide off-screen when body has .jtd-sidebar-auto-hidden (see footer_custom scroll script)
+@include mq(md) {
+  .side-bar {
+    z-index: 3;
+    transition: transform 0.28s ease;
+  }
+
+  .side-bar + .main {
+    transition: margin-left 0.28s ease;
+  }
+
+  body.jtd-sidebar-auto-hidden .side-bar {
+    transform: translate3d(-100%, 0, 0);
+    pointer-events: none;
+  }
+
+  body.jtd-sidebar-auto-hidden .side-bar + .main {
+    margin-left: 0 !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .side-bar,
+  .side-bar + .main {
+    transition: none !important;
+  }
+}

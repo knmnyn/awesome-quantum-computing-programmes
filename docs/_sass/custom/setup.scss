@@ -1,0 +1,4 @@
+// Narrower nav (theme default: $nav-width 16.5rem, $nav-width-md 15.5rem)
+$nav-width: 13rem;
+$nav-width-md: 12rem;
+$search-results-width: $content-width - $nav-width;

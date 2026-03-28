@@ -24,4 +24,46 @@
     if (ev.persisted) initSortableTables();
   });
 })();
+
+// Hide fixed sidebar on scroll down (desktop); show on scroll up or near top of page
+(function () {
+  var MD_MIN = '50rem'; // matches theme $content-width → md breakpoint
+  var lastY = window.scrollY || 0;
+  var ticking = false;
+
+  function sync() {
+    if (!window.matchMedia('(min-width: ' + MD_MIN + ')').matches) {
+      document.body.classList.remove('jtd-sidebar-auto-hidden');
+      lastY = window.scrollY || 0;
+      ticking = false;
+      return;
+    }
+    var y = window.scrollY || document.documentElement.scrollTop;
+    var delta = y - lastY;
+    lastY = y;
+
+    if (y < 56) {
+      document.body.classList.remove('jtd-sidebar-auto-hidden');
+    } else if (delta > 6) {
+      document.body.classList.add('jtd-sidebar-auto-hidden');
+    } else if (delta < -6) {
+      document.body.classList.remove('jtd-sidebar-auto-hidden');
+    }
+    ticking = false;
+  }
+
+  function onScroll() {
+    if (!ticking) {
+      ticking = true;
+      window.requestAnimationFrame(sync);
+    }
+  }
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', function () {
+    if (!window.matchMedia('(min-width: ' + MD_MIN + ')').matches) {
+      document.body.classList.remove('jtd-sidebar-auto-hidden');
+    }
+  });
+})();
 </script>
