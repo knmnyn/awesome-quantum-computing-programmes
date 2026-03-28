@@ -1,0 +1,6 @@
+// Full-width main column (theme default caps .main at $content-width, ~50rem)
+.main {
+  @include mq(md) {
+    max-width: none;
+  }
+}
