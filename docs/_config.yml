@@ -1,0 +1,17 @@
+title: Awesome Quantum Computing Programmes
+description: A curated, globally-focused and sortable directory of quantum computing and quantum technology degree programmes.
+theme: just-the-docs
+
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/awesome-quantum-computing-programmes" # the subpath of your site, e.g. /blog
+
+color_scheme: dark
+
+# Repository settings
+github_username: knmnyn
+github_repo: awesome-quantum-computing-programmes
+github_url: https://github.com/knmnyn/awesome-quantum-computing-programmes
+
+# Navigation settings
+nav_sort: case_insensitive
+search_enabled: true

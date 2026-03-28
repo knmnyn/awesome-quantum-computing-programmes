@@ -1,0 +1,66 @@
+---
+layout: default
+title: Undergraduate Programmes
+nav_order: 2
+---
+
+# 🎓 Undergraduate Programmes
+
+The table below lists undergraduate programmes (BSc, BEng, etc.) globally. 
+
+*Click on any column header to sort the table.*
+
+| Programme Name | Institution | Country | Region | Degree Type | Duration | Mode | Focus Area | Tuition (approx) | URL |
+|---|---|---|---|---|---|---|---|---|---|
+| BSc Physics with Quantum Computing | University of Surrey | UK | Europe | BSc (Hons) / MPhys | 3-4 Years | In-person | Quantum Physics & Computing | £9,250 (~$11,800 USD) | [Link](https://www.surrey.ac.uk/undergraduate/physics-quantum-computing) |
+| BSc Physics with Quantum Technology | University of Exeter | UK | Europe | BSc (Hons) / MPhys | 3-4 Years | In-person | Quantum Technology | £9,250 (~$11,800 USD) | [Link](https://www.exeter.ac.uk/undergraduate-degrees/bsc-physics-with-quantum-technology/) |
+| Bachelor of Engineering (Quantum Engineering) | UNSW Sydney | Australia | Oceania | BEng (Hons) | 4 Years | In-person | Quantum Engineering | $48,000 AUD (~$31,500 USD) | [Link](https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-quantum) |
+| Bachelor of Science in Quantum Computing | Miami University | USA | North America | BS | 4 Years | In-person | Quantum Computing | $18,000 USD | [Link](https://bulletin.miamioh.edu/engineering-computing/quantum-computing-bsqc/) |
+| BS in Physics and Quantum Computing | University of Pittsburgh | USA | North America | BS | 4 Years | In-person | Physics & Quantum Computing | $21,000 USD | [Link](https://www.physicsandastronomy.pitt.edu/undergraduate/physicsandquantumcomputing) |
+| Bachelor in Quantum Information Science | Université de Sherbrooke | Canada | North America | BSc | 3-4 Years | In-person | Quantum Information | Varies | [Link](https://www.usherbrooke.ca/iq/en/study-at-iq-1/available-program-at-udes) |
+| BSc Applied Physics with 2nd Major in Quantum Tech | Nanyang Technological University (NTU) | Singapore | Asia | BSc (Hons) | 4 Years | In-person | Applied Physics & Quantum | $8,250 SGD (~$6,100 USD) | [Link](https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-science-in-applied-physics-with-second-major-in-quantum-technologies) |
+| Quantum Science and Engineering Minor | University of Maryland (UMD) | USA | North America | Minor | Varies | In-person | Quantum Science | Varies | [Link](https://academiccatalog.umd.edu/undergraduate/colleges-schools/engineering/electrical-and-computer/quantum-science-engineering-minor/) |
+| Quantum Information Science and Technology Certificate | Purdue University | USA | North America | Certificate | Varies | In-person | Quantum Information | Varies | [Link](https://engineering.purdue.edu/Engr/Academics/Undergraduate/majors/2025-26/certificates/Quantum-Information-Science-and-Technology-Certificate) |
+| Minor in Quantum Science and Quantum Information | TU Delft | Netherlands | Europe | Minor | 6 Months | In-person | Quantum Science | Varies | [Link](https://www.tudelft.nl/en/faculty-of-applied-sciences/education/minors-and-electives/quantum-science-and-quantum-information) |
+
+<!-- Script to make tables sortable -->
+<script src="https://cdn.jsdelivr.net/npm/tablesort@5.3.0/dist/tablesort.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var tables = document.querySelectorAll('table');
+    for (var i = 0; i < tables.length; i++) {
+      new Tablesort(tables[i]);
+    }
+  });
+</script>
+<style>
+  th[role=columnheader]:not(.no-sort) {
+    cursor: pointer;
+  }
+  th[role=columnheader]:not(.no-sort):after {
+    content: '';
+    float: right;
+    margin-top: 7px;
+    border-width: 0 4px 4px;
+    border-style: solid;
+    border-color: #404040 transparent;
+    visibility: hidden;
+    opacity: 0;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  th[aria-sort=ascending]:not(.no-sort):after {
+    border-bottom: none;
+    border-width: 4px 4px 0;
+  }
+  th[aria-sort]:not(.no-sort):after {
+    visibility: visible;
+    opacity: 0.4;
+  }
+  th[role=columnheader]:not(.no-sort):hover:after {
+    visibility: visible;
+    opacity: 1;
+  }
+</style>
