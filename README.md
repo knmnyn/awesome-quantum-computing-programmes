@@ -26,28 +26,28 @@ The table below lists undergraduate programmes (BSc, BEng, etc.) globally.
 
 *Note: To sort this table on GitHub, click on the column headers (requires GitHub's native table sorting feature, or view on the [Jekyll site](https://knmnyn.github.io/awesome-quantum-computing-programmes/) for full interactive sorting).*
 
-| Programme Name | Institution | Country | Region | Degree Type | Duration | Mode | Focus Area | Tuition (approx) |
-|---|---|---|---|---|---|---|---|---|
-| [BSc Physics with Quantum Computing](https://www.surrey.ac.uk/undergraduate/physics-quantum-computing) | University of Surrey | UK | Europe | BSc (Hons) / MPhys | 3-4 Years | In-person | Quantum Physics & Computing | £9,250 (~$11,800 USD) |
-| [BSc Physics with Quantum Technology](https://www.exeter.ac.uk/undergraduate-degrees/bsc-physics-with-quantum-technology/) | University of Exeter | UK | Europe | BSc (Hons) / MPhys | 3-4 Years | In-person | Quantum Technology | £9,250 (~$11,800 USD) |
-| [Bachelor of Engineering (Quantum Engineering)](https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-quantum) | UNSW Sydney | Australia | Oceania | BEng (Hons) | 4 Years | In-person | Quantum Engineering | $48,000 AUD (~$31,500 USD) |
-| [Bachelor of Science in Quantum Computing](https://bulletin.miamioh.edu/engineering-computing/quantum-computing-bsqc/) | Miami University | USA | North America | BS | 4 Years | In-person | Quantum Computing | $18,000 USD |
-| [BS in Physics and Quantum Computing](https://www.physicsandastronomy.pitt.edu/undergraduate/physicsandquantumcomputing) | University of Pittsburgh | USA | North America | BS | 4 Years | In-person | Physics & Quantum Computing | $21,000 USD |
-| [Bachelor in Quantum Information Science](https://www.usherbrooke.ca/iq/en/study-at-iq-1/available-program-at-udes) | Université de Sherbrooke | Canada | North America | BSc | 3-4 Years | In-person | Quantum Information | Varies |
-| [BSc Applied Physics with 2nd Major in Quantum Tech](https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-science-in-applied-physics-with-second-major-in-quantum-technologies) | Nanyang Technological University (NTU) | Singapore | Asia | BSc (Hons) | 4 Years | In-person | Applied Physics & Quantum | $8,250 SGD (~$6,100 USD) |
-| [Quantum Science and Engineering Minor](https://academiccatalog.umd.edu/undergraduate/colleges-schools/engineering/electrical-and-computer/quantum-science-engineering-minor/) | University of Maryland (UMD) | USA | North America | Minor | Varies | In-person | Quantum Science | Varies |
-| [Quantum Information Science and Technology Certificate](https://engineering.purdue.edu/Engr/Academics/Undergraduate/majors/2025-26/certificates/Quantum-Information-Science-and-Technology-Certificate) | Purdue University | USA | North America | Certificate | Varies | In-person | Quantum Information | Varies |
-| [Minor in Quantum Science and Quantum Information](https://www.tudelft.nl/en/faculty-of-applied-sciences/education/minors-and-electives/quantum-science-and-quantum-information) | TU Delft | Netherlands | Europe | Minor | 6 Months | In-person | Quantum Science | Varies |
+| Programme Name | Institution | Country | Region | Degree Type | Duration | Mode | Focus Area | Core features | Tuition (approx) |
+|---|---|---|---|---|---|---|---|---|---|
+| [BSc Physics with Quantum Computing](https://www.surrey.ac.uk/undergraduate/physics-quantum-computing) | University of Surrey | UK | Europe | BSc (Hons) / MPhys | 3-4 Years | In-person | Quantum Physics & Computing | Quantum theory, computing & information; mathematical physics; research project | £9,250 (~$11,800 USD) |
+| [BSc Physics with Quantum Technology](https://www.exeter.ac.uk/undergraduate-degrees/bsc-physics-with-quantum-technology/) | University of Exeter | UK | Europe | BSc (Hons) / MPhys | 3-4 Years | In-person | Quantum Technology | Quantum devices & materials; photonics and condensed matter; skills for QT R&D | £9,250 (~$11,800 USD) |
+| [Bachelor of Engineering (Quantum Engineering)](https://www.unsw.edu.au/study/undergraduate/bachelor-of-engineering-honours-quantum) | UNSW Sydney | Australia | Oceania | BEng (Hons) | 4 Years | In-person | Quantum Engineering | Quantum hardware & control; cryogenics & measurement; industry design project | $48,000 AUD (~$31,500 USD) |
+| [Bachelor of Science in Quantum Computing](https://bulletin.miamioh.edu/engineering-computing/quantum-computing-bsqc/) | Miami University | USA | North America | BS | 4 Years | In-person | Quantum Computing | CS core; quantum algorithms & complexity; programming (e.g. Qiskit); capstone | $18,000 USD |
+| [BS in Physics and Quantum Computing](https://www.physicsandastronomy.pitt.edu/undergraduate/physicsandquantumcomputing) | University of Pittsburgh | USA | North America | BS | 4 Years | In-person | Physics & Quantum Computing | Physics major; quantum mechanics & computing track; lab and mathematical methods | $21,000 USD |
+| [Bachelor in Quantum Information Science](https://www.usherbrooke.ca/iq/en/study-at-iq-1/available-program-at-udes) | Université de Sherbrooke | Canada | North America | BSc | 3-4 Years | In-person | Quantum Information | IQ institute curriculum; theory, optics & quantum experiments; research environment | Varies |
+| [BSc Applied Physics with 2nd Major in Quantum Tech](https://www.ntu.edu.sg/education/undergraduate-programme/bachelor-of-science-in-applied-physics-with-second-major-in-quantum-technologies) | Nanyang Technological University (NTU) | Singapore | Asia | BSc (Hons) | 4 Years | In-person | Applied Physics & Quantum | Applied physics core; second major in quantum technologies (devices, QIS) | $8,250 SGD (~$6,100 USD) |
+| [Quantum Science and Engineering Minor](https://academiccatalog.umd.edu/undergraduate/colleges-schools/engineering/electrical-and-computer/quantum-science-engineering-minor/) | University of Maryland (UMD) | USA | North America | Minor | Varies | In-person | Quantum Science | QISE breadth (hardware, algorithms, error correction); complements engineering major | Varies |
+| [Quantum Information Science and Technology Certificate](https://engineering.purdue.edu/Engr/Academics/Undergraduate/majors/2025-26/certificates/Quantum-Information-Science-and-Technology-Certificate) | Purdue University | USA | North America | Certificate | Varies | In-person | Quantum Information | Foundational QIST; algorithms, hardware concepts, and secure communication | Varies |
+| [Minor in Quantum Science and Quantum Information](https://www.tudelft.nl/en/faculty-of-applied-sciences/education/minors-and-electives/quantum-science-and-quantum-information) | TU Delft | Netherlands | Europe | Minor | 6 Months | In-person | Quantum Science | QuTech-linked minor; quantum communication, computing & sensing; lab and theory | Varies |
 
 ## 📜 Professional Certificates & Online Courses
 
-| Programme Name | Provider | Mode | Focus Area |
-|---|---|---|---|
-| [IBM Certified Quantum Computation using Qiskit v2.X](https://www.ibm.com/training/certification/ibm-certified-quantum-computation-using-qiskit-v2x-developer-associate-C9008400) | IBM | Online | Software / Qiskit |
-| [Google Quantum AI Online Courses](https://www.coursera.org/partners/google-quantum-ai) | Google / Coursera | Online | Quantum AI / Cirq |
-| [The Hardware of a Quantum Computer](https://www.edx.org/learn/quantum-computing/delft-university-of-technology-the-hardware-of-a-quantum-computer) | TU Delft / edX | Online | Hardware |
-| [Quantum Computing Fundamentals](https://xpro.mit.edu/courses/course-v1:xPRO+QCFx1/) | MIT xPRO / edX | Online | Algorithms & Theory |
-| [Introduction to Quantum Computing](https://www.qubitbyqubit.org/programs) | Qubit by Qubit / The Coding School | Online | Introductory |
+| Programme Name | Provider | Mode | Focus Area | Core features |
+|---|---|---|---|---|
+| [IBM Certified Quantum Computation using Qiskit v2.X](https://www.ibm.com/training/certification/ibm-certified-quantum-computation-using-qiskit-v2x-developer-associate-C9008400) | IBM | Online | Software / Qiskit | IBM certification exam; Qiskit SDK; building & running circuits on simulators and hardware |
+| [Google Quantum AI Online Courses](https://www.coursera.org/partners/google-quantum-ai) | Google / Coursera | Online | Quantum AI / Cirq | Coursera micro-credentials; Cirq; NISQ algorithms and Google Quantum AI stack |
+| [The Hardware of a Quantum Computer](https://www.edx.org/learn/quantum-computing/delft-university-of-technology-the-hardware-of-a-quantum-computer) | TU Delft / edX | Online | Hardware | Superconducting qubits; control & readout; cryogenics; full hardware stack overview |
+| [Quantum Computing Fundamentals](https://xpro.mit.edu/courses/course-v1:xPRO+QCFx1/) | MIT xPRO / edX | Online | Algorithms & Theory | Multi-course professional certificate; algorithms, complexity, hardware landscape |
+| [Introduction to Quantum Computing](https://www.qubitbyqubit.org/programs) | Qubit by Qubit / The Coding School | Online | Introductory | Live online instruction; intro QM and QC; hands-on coding; aimed at schools and beginners |
 
 ## 🗂️ Repository Structure
 
