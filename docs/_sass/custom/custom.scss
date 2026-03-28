@@ -1,28 +1,68 @@
-// Full-width main column (theme default caps .main at $content-width, ~50rem)
-.main {
-  @include mq(md) {
-    max-width: none;
-  }
-}
-
-// Sidebar: slide off-screen when body has .jtd-sidebar-auto-hidden (see footer_custom scroll script)
+// Full browser width for main content: drop theme max-width and horizontal gutters on the wrap.
+// With a 10% sidebar, main is 90% so nav + main span the viewport (same % basis).
 @include mq(md) {
+  .main {
+    max-width: none !important;
+    margin-right: 0 !important;
+    box-sizing: border-box;
+  }
+
+  .main-content-wrap {
+    max-width: none;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  // Sidebar: 10% of viewport (https://github.com/just-the-docs/just-the-docs/discussions/1204)
   .side-bar {
+    width: 10% !important;
+    min-width: 0 !important;
     z-index: 3;
     transition: transform 0.28s ease;
   }
 
   .side-bar + .main {
-    transition: margin-left 0.28s ease;
+    margin-left: 10% !important;
+    margin-right: 0 !important;
+    width: 90% !important;
+    max-width: none !important;
+    transition: margin-left 0.28s ease, width 0.28s ease;
+  }
+
+  .side-bar .site-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .side-bar .nav-list-link {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   body.jtd-sidebar-auto-hidden .side-bar {
-    transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0) !important;
     pointer-events: none;
   }
 
   body.jtd-sidebar-auto-hidden .side-bar + .main {
     margin-left: 0 !important;
+    width: 100% !important;
+  }
+}
+
+@include mq(lg) {
+  .side-bar {
+    width: 10% !important;
+    min-width: 0 !important;
+  }
+
+  .side-bar .site-header,
+  .side-bar .site-nav,
+  .side-bar .site-footer {
+    width: 100% !important;
+    max-width: none;
   }
 }
 
