@@ -1,0 +1,27 @@
+<!-- tablesort: load at end of body so the DOM exists and init cannot miss DOMContentLoaded -->
+<script src="{{ '/assets/js/tablesort.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/tablesort.number.min.js' | relative_url }}"></script>
+<script>
+(function () {
+  function initSortableTables() {
+    if (typeof Tablesort === 'undefined') return;
+    document.querySelectorAll('main table').forEach(function (table) {
+      if (table.dataset.tablesortInit === '1') return;
+      table.dataset.tablesortInit = '1';
+      try {
+        new Tablesort(table);
+      } catch (e) {
+        console.warn('Tablesort init failed:', e);
+      }
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initSortableTables);
+  } else {
+    initSortableTables();
+  }
+  window.addEventListener('pageshow', function (ev) {
+    if (ev.persisted) initSortableTables();
+  });
+})();
+</script>

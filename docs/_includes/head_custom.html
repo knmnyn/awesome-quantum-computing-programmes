@@ -1,27 +1,31 @@
-<!-- tablesort: client-side column sorting for all markdown tables -->
-<script src="{{ '/assets/js/tablesort.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/tablesort.number.min.js' | relative_url }}"></script>
+<!-- tablesort: header affordances (Tablesort adds role="columnheader" after init) -->
 <style>
-  /* Sortable table header styling */
-  table th[role=columnheader] {
+  main table thead th {
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    position: relative;
+    touch-action: manipulation;
+  }
+  main table th[role='columnheader'] {
     cursor: pointer;
     user-select: none;
     white-space: nowrap;
   }
-  table th[role=columnheader]:not(.no-sort)::after {
-    content: ' \2195'; /* up-down arrow */
+  main table th[role='columnheader']:not(.no-sort)::after {
+    content: ' \2195';
     font-size: 0.75em;
     color: #888;
   }
-  table th[aria-sort=ascending]::after  { content: ' \2191' !important; color: #333; }
-  table th[aria-sort=descending]::after { content: ' \2193' !important; color: #333; }
-  table tbody tr:hover { background-color: rgba(0,0,0,0.04); }
+  main table th[aria-sort='ascending']::after {
+    content: ' \2191' !important;
+    color: #959396;
+  }
+  main table th[aria-sort='descending']::after {
+    content: ' \2193' !important;
+    color: #959396;
+  }
+  main table tbody tr:hover {
+    background-color: rgba(128, 128, 128, 0.12);
+  }
 </style>
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    // Apply tablesort to every table on the page
-    document.querySelectorAll('table').forEach(function (table) {
-      new Tablesort(table);
-    });
-  });
-</script>

@@ -1,0 +1,4 @@
+# Bundler / Jekyll (site lives in docs/)
+docs/.bundle/
+docs/.bundle-cache/
+docs/vendor/
