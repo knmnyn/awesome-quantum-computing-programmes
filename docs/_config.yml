@@ -15,3 +15,13 @@ github_url: https://github.com/knmnyn/awesome-quantum-computing-programmes
 # Navigation settings
 nav_sort: case_insensitive
 search_enabled: true
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
